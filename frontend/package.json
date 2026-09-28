@@ -1,0 +1,11 @@
+{
+  "name": "three-bundle",
+  "version": "1.0.0",
+  "private": true,
+  "devDependencies": {
+    "esbuild": "^0.25.0"
+  },
+  "scripts": {
+    "build": "node build.js"
+  }
+}

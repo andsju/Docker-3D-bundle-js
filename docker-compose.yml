@@ -1,0 +1,8 @@
+services:
+  frontend:
+    build: ./frontend
+    container_name: three_frontend
+    ports:
+      - "8080:80"
+    volumes:
+      - ./frontend/public:/app/public
