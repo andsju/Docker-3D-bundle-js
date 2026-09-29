@@ -7,6 +7,10 @@ Build a on file three.js dependecy  to display `.glb` file.
 `docker-compose build --no-cache`
 `docker-compose up`
 
-Copy bulit file from container to local ./bundle.js
+Copy built file from container to local ./bundle.js
 
 `docker cp three_frontend:/usr/share/nginx/html/bundle.js ./bundle.js`
+
+Model name is dynamic in `bundle-dynamicModelName.js` ->
+
+"/model.glb" => glbModel
